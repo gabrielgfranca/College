@@ -36,12 +36,11 @@ public class Client {
     public void setBook(Book book) { this.book = book; }
 
     public void printInformation() {
-        System.out.println("Name: " + name);
-        System.out.println("Age: " + age);
-        System.out.println("Gender: " + gender);
-        System.out.println("Email: " + email);
-        System.out.println("Password: " + password);
-        System.out.println("Book Information's:");
-        book.printInformation();
+        System.out.printf("Name: %s\n", name);
+        System.out.printf("Age: %d\n", age);
+        System.out.printf("Gender: %c\n", gender);
+        System.out.printf("Email: %s\n", email);
+        System.out.printf("Password: %s\n", password);
+        System.out.printf("The client %s has the book: %s, and the price per page is %.2f\n", name, book.getTitle(), book.pricePerPage());
     }
 }

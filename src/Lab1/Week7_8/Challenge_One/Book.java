@@ -36,12 +36,4 @@ public class Book {
         else
             return 0.0;
     }
-
-    public void printInformation() {
-        System.out.println("Title: " + title);
-        System.out.println("Author: " + author);
-        System.out.println("Publish Year: " + publishYear);
-        System.out.println("Price: " + price);
-        System.out.println("Page Amount: " + pageAmount);
-    }
 }
