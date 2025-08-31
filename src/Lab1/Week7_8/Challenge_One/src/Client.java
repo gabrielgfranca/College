@@ -1,4 +1,4 @@
-package Lab1.Week7_8.Challenge_One;
+package Lab1.Week7_8.Challenge_One.src;
 
 public class Client {
     private String name;

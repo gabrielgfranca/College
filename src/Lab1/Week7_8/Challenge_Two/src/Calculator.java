@@ -1,4 +1,4 @@
-package Lab1.Week7_8.Challenge_Two;
+package Lab1.Week7_8.Challenge_Two.src;
 
 public class Calculator {
     private int memory = 0;
