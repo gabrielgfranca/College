@@ -1,4 +1,4 @@
-package Lab1.Week7_8.Chanllenge_Three.src;
+package Lab1.Week7_8.Challenge_Three.src;
 
 public class Data {
     private int day;
